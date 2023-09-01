@@ -101,6 +101,17 @@ img {
 	color: var(--pressed-state-color);
 }
 
+.acative-page::after {
+	content: '';
+	display: block;
+	width: 48px;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--pressed-state-color);
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
 .address {
 	font-style: normal;
 }
